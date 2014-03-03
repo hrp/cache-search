@@ -23,7 +23,7 @@
 23,bing.com,"private, max-age=0"
 24,vk.com,no-store
 25,ebay.com,
-26,sohu.com,TIMED OUT
+26,sohu.com,max-age=120
 27,google.de,"private, max-age=0"
 28,pinterest.com,
 29,163.com,max-age=80
@@ -43,12 +43,12 @@
 43,xvideos.com,
 44,imdb.com,private
 45,google.es,"private, max-age=0"
-46,apple.com,max-age=123
+46,apple.com,max-age=68
 47,google.it,"private, max-age=0"
 48,xinhuanet.com,TIMED OUT
 49,amazon.co.jp,no-cache
 50,craigslist.org,"public, max-age=14400"
-51,imgur.com,"max-age=120, s-maxage=120, public, must-revalidate"
+51,imgur.com,"max-age=60, s-maxage=60, public, must-revalidate"
 52,neobux.com,"no-cache, no-store, must-revalidate, post-check=0, pre-check=0"
 53,stackoverflow.com,"public, max-age=60"
 54,xhamster.com,
@@ -68,13 +68,13 @@
 68,vube.com,
 69,t.co,
 70,about.com,"max-age=3600, private"
-71,gmw.cn,TIMED OUT
-72,alipay.com,TIMED OUT
+71,gmw.cn,max-age=60
+72,alipay.com,
 73,wordpress.org,
 74,googleusercontent.com,
 75,odnoklassniki.ru,"[""no-cache"", ""no-store""]"
 76,youku.com,TIMED OUT
-77,conduit.com,"public, private, max-age=910"
+77,conduit.com,"public, private, max-age=3251"
 78,alibaba.com,
 79,google.com.tr,"private, max-age=0"
 80,flickr.com,private
@@ -82,7 +82,7 @@
 82,adobe.com,max-age=900
 83,godaddy.com,"no-cache, no-store, must-revalidate"
 84,pornhub.com,
-85,huffingtonpost.com,max-age=9
+85,huffingtonpost.com,max-age=15
 86,google.com.au,"private, max-age=0"
 87,amazon.de,no-cache
 88,blogspot.in,"private, max-age=0"
