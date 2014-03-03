@@ -1,14 +1,11 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    curb (0.8.5)
     ethon (0.6.3)
       ffi (>= 1.3.0)
       mime-types (~> 1.18)
     ffi (1.9.3)
-    httpclient (2.3.4.1)
     mime-types (1.25.1)
-    open_uri_redirections (0.1.4)
     typhoeus (0.6.7)
       ethon (~> 0.6.2)
 
@@ -16,7 +13,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  curb
-  httpclient
-  open_uri_redirections
   typhoeus
