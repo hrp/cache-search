@@ -10,8 +10,8 @@
 10,live.com,max-age=0
 11,twitter.com,"no-cache, no-store, must-revalidate, pre-check=0, post-check=0"
 12,amazon.com,no-cache
-13,sina.com.cn,TIMED OUT
-14,hao123.com,TIMED OUT
+13,sina.com.cn,max-age=60
+14,hao123.com,max-age=0
 15,google.co.in,"private, max-age=0"
 16,blogspot.com,"no-cache, no-store"
 17,weibo.com,
@@ -26,7 +26,7 @@
 26,sohu.com,TIMED OUT
 27,google.de,"private, max-age=0"
 28,pinterest.com,
-29,163.com,TIMED OUT
+29,163.com,max-age=80
 30,google.co.uk,"private, max-age=0"
 31,ask.com,
 32,soso.com,TIMED OUT
@@ -34,23 +34,23 @@
 34,msn.com,private
 35,tumblr.com,
 36,google.co.jp,"private, max-age=0"
-37,mail.ru,TIMED OUT
+37,mail.ru,"no-cache,no-store,must-revalidate"
 38,instagram.com,"private, no-cache, no-store, must-revalidate"
 39,microsoft.com,private
 40,google.com.br,"private, max-age=0"
 41,google.ru,"private, max-age=0"
 42,paypal.com,"[""must-revalidate"", ""proxy-revalidate"", ""no-cache""]"
 43,xvideos.com,
-44,imdb.com,TIMED OUT
+44,imdb.com,private
 45,google.es,"private, max-age=0"
-46,apple.com,max-age=220
+46,apple.com,max-age=123
 47,google.it,"private, max-age=0"
 48,xinhuanet.com,TIMED OUT
 49,amazon.co.jp,no-cache
 50,craigslist.org,"public, max-age=14400"
 51,imgur.com,"max-age=120, s-maxage=120, public, must-revalidate"
 52,neobux.com,"no-cache, no-store, must-revalidate, post-check=0, pre-check=0"
-53,stackoverflow.com,"public, max-age=3"
+53,stackoverflow.com,"public, max-age=60"
 54,xhamster.com,
 55,ifeng.com,max-age=120
 56,google.com.mx,"private, max-age=0"
@@ -62,7 +62,7 @@
 62,cnn.com,"max-age=60, private"
 63,fc2.com,
 64,google.ca,"private, max-age=0"
-65,people.com.cn,TIMED OUT
+65,people.com.cn,max-age=300
 66,akamaihd.net,
 67,go.com,"public, max-age=3600"
 68,vube.com,
@@ -74,7 +74,7 @@
 74,googleusercontent.com,
 75,odnoklassniki.ru,"[""no-cache"", ""no-store""]"
 76,youku.com,TIMED OUT
-77,conduit.com,"public, private, max-age=2009"
+77,conduit.com,"public, private, max-age=910"
 78,alibaba.com,
 79,google.com.tr,"private, max-age=0"
 80,flickr.com,private
@@ -82,7 +82,7 @@
 82,adobe.com,max-age=900
 83,godaddy.com,"no-cache, no-store, must-revalidate"
 84,pornhub.com,
-85,huffingtonpost.com,max-age=11
+85,huffingtonpost.com,max-age=9
 86,google.com.au,"private, max-age=0"
 87,amazon.de,no-cache
 88,blogspot.in,"private, max-age=0"
@@ -91,10 +91,10 @@
 91,netflix.com,private
 92,kickass.to,public
 93,bp.blogspot.com,
-94,thepiratebay.se,"[""no-store, no-cache, must-revalidate"", ""post-check=0, pre-check=0""]"
-95,ku6.com,TIMED OUT
+94,thepiratebay.se,TIMED OUT
+95,ku6.com,max-age=120
 96,dailymotion.com,no-cache
 97,vimeo.com,"[""no-store, no-cache, must-revalidate"", ""post-check=0, pre-check=0""]"
-98,weather.com,TIMED OUT
+98,weather.com,"max-age=0, no-cache, no-store"
 99,cnet.com,max-age=120
 100,espn.go.com,max-age=15
