@@ -65,7 +65,7 @@ res = []
 
 results = top100.first(100).map do |a,b|
 # results = sites.map do |a,b|
-	req = Typhoeus::Request.new(b, timeout: 2, followlocation: true)
+	req = Typhoeus::Request.new(b, timeout: 10, followlocation: true)
 	hydra.queue req
 	req.on_complete do |response|
 		# p response.headers
